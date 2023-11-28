@@ -1,11 +1,10 @@
 <script>
 import AppTitle  from './components/AppTitle.vue'
-import AppHero from './components/AppHero.vue'
+
 
 export default {
   components: {
-    AppTitle,
-    AppHero
+    AppTitle 
   }
 }
 </script>
@@ -15,7 +14,6 @@ export default {
     Benvenuto nella tua App in Vue.js
   </div>
   <AppTitle />
-  <AppHero />
 </template>
 
 <style scoped></style>
